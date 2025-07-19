@@ -1,0 +1,51 @@
+# Common Agent Task Instructions
+
+## Overview
+This document contains common behaviors and instructions that all agent tasks should follow.
+
+## Workflow Process
+1. **Read Instructions**: Always read this file (00) first, then read your specific task file
+2. **Branch Creation**: Implement changes in a separate branch (never work directly on main)
+3. **Pull Request**: Create a PR to main branch with your changes
+4. **Review Process**: 
+   - Add comment "/gemini review <info>" to the PR
+   - Wait 2 minutes for review
+   - Check and resolve any review comments
+   - Merge to main after all issues are resolved
+
+## Branch Naming Convention
+Use the format: `codegen-bot/task-{task_number}-{brief-description}`
+
+## Commit Message Format
+- Use clear, descriptive commit messages
+- Include task number in commit messages
+- Example: "Task 01: Add new feature implementation"
+
+## Code Quality Standards
+- Follow existing code style and conventions
+- Add appropriate comments and documentation
+- Ensure all changes are tested and functional
+- Keep changes focused and minimal
+
+## PR Description Template
+```
+## Task {number}: {Brief Description}
+
+### Changes Made
+- List key changes here
+- Be specific about what was modified
+
+### Testing
+- Describe how changes were tested
+- Include any relevant test results
+
+### Notes
+- Any additional context or considerations
+```
+
+## Review Process Notes
+- Be responsive to review feedback
+- Address all comments before merging
+- Use "/gemini review" command to trigger automated review
+- Wait for review completion before proceeding with merge
+
