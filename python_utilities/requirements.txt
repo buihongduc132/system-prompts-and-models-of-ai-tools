@@ -1,0 +1,13 @@
+# Requirements for python_utilities package
+# Python 3.8+ compatible
+
+# No external dependencies required for basic functionality
+# All functionality uses Python standard library
+
+# Development dependencies (for testing)
+# pytest>=6.0.0  # Alternative test runner
+# coverage>=5.0  # Code coverage analysis
+# black>=21.0.0  # Code formatting
+# flake8>=3.8.0  # Linting
+# mypy>=0.800    # Type checking
+
